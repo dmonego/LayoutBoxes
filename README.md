@@ -1,4 +1,6 @@
 LayoutBoxes
 ===========
 
-HBoxView and VBoxView vies for iOS to mimic Flex's HBox and VBox controls
+HBoxView and VBoxView views for iOS to mimic Flex's HBox and VBox controls. Useful for quickly prototyping layouts.
+
+Kittens from [placekitten.com](http://placekitten.com).

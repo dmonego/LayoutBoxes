@@ -17,6 +17,7 @@
 		370B2F221680A17600DAF157 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 370B2F161680A17600DAF157 /* README.md */; };
 		370B2F231680A17600DAF157 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B2F181680A17600DAF157 /* RootViewController.m */; };
 		370B2F241680A17600DAF157 /* VBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B2F1A1680A17600DAF157 /* VBoxView.m */; };
+		3773C7601680A2BF00EFCBFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3773C75F1680A2BF00EFCBFA /* README.md */; };
 		37D4FD9F167FEF03006F7FFB /* HBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FD9E167FEF03006F7FFB /* HBoxView.m */; };
 		37D4FDA9167FF53D006F7FFB /* 80-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FDA5167FF53D006F7FFB /* 80-60.png */; };
 		37D4FDAA167FF53D006F7FFB /* 80-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FDA6167FF53D006F7FFB /* 80-120.png */; };
@@ -66,6 +67,7 @@
 		370B2F181680A17600DAF157 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		370B2F191680A17600DAF157 /* VBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBoxView.h; sourceTree = "<group>"; };
 		370B2F1A1680A17600DAF157 /* VBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBoxView.m; sourceTree = "<group>"; };
+		3773C75F1680A2BF00EFCBFA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		37D4FD9D167FEF03006F7FFB /* HBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBoxView.h; path = LayoutBoxes/HBoxView.h; sourceTree = "<group>"; };
 		37D4FD9E167FEF03006F7FFB /* HBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBoxView.m; path = LayoutBoxes/HBoxView.m; sourceTree = "<group>"; };
 		37D4FDA5167FF53D006F7FFB /* 80-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80-60.png"; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 		37E2F49A167FEA9C001FC74A = {
 			isa = PBXGroup;
 			children = (
+				3773C75F1680A2BF00EFCBFA /* README.md */,
 				37D4FDA5167FF53D006F7FFB /* 80-60.png */,
 				37D4FDA6167FF53D006F7FFB /* 80-120.png */,
 				37D4FDA7167FF53D006F7FFB /* 160-60.png */,
@@ -323,6 +326,7 @@
 				370B2F1D1680A17600DAF157 /* RootViewController.xib in Resources */,
 				370B2F1F1680A17600DAF157 /* LayoutBoxes-Info.plist in Resources */,
 				370B2F221680A17600DAF157 /* README.md in Resources */,
+				3773C7601680A2BF00EFCBFA /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
