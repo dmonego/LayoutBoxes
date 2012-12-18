@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37D4FD9F167FEF03006F7FFB /* HBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FD9E167FEF03006F7FFB /* HBoxView.m */; };
+		37D4FDA9167FF53D006F7FFB /* 80-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FDA5167FF53D006F7FFB /* 80-60.png */; };
+		37D4FDAA167FF53D006F7FFB /* 80-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FDA6167FF53D006F7FFB /* 80-120.png */; };
+		37D4FDAB167FF53D006F7FFB /* 160-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FDA7167FF53D006F7FFB /* 160-60.png */; };
+		37D4FDAC167FF53D006F7FFB /* 160-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FDA8167FF53D006F7FFB /* 160-120.png */; };
+		37D9C33C16809D5500F22DF0 /* VBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9C33B16809D5500F22DF0 /* VBoxView.m */; };
+		37E2F4AA167FEA9D001FC74A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2F4A9167FEA9D001FC74A /* UIKit.framework */; };
+		37E2F4AC167FEA9D001FC74A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2F4AB167FEA9D001FC74A /* Foundation.framework */; };
+		37E2F4AE167FEA9D001FC74A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2F4AD167FEA9D001FC74A /* CoreGraphics.framework */; };
+		37E2F4B4167FEA9D001FC74A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37E2F4B2167FEA9D001FC74A /* InfoPlist.strings */; };
+		37E2F4B7167FEA9D001FC74A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F4B6167FEA9D001FC74A /* main.m */; };
+		37E2F4BA167FEA9D001FC74A /* LayoutBoxesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F4B9167FEA9D001FC74A /* LayoutBoxesAppDelegate.m */; };
+		37E2F4BD167FEA9D001FC74A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37E2F4BB167FEA9D001FC74A /* MainWindow.xib */; };
+		37E2F4C0167FEA9D001FC74A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F4BF167FEA9D001FC74A /* RootViewController.m */; };
+		37E2F4C3167FEA9D001FC74A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37E2F4C1167FEA9D001FC74A /* RootViewController.xib */; };
+		37E2F4CA167FEA9D001FC74A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2F4A9167FEA9D001FC74A /* UIKit.framework */; };
+		37E2F4CB167FEA9D001FC74A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2F4AB167FEA9D001FC74A /* Foundation.framework */; };
+		37E2F4CC167FEA9D001FC74A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2F4AD167FEA9D001FC74A /* CoreGraphics.framework */; };
+		37E2F4D4167FEA9D001FC74A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37E2F4D2167FEA9D001FC74A /* InfoPlist.strings */; };
+		37E2F4D7167FEA9D001FC74A /* LayoutBoxesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 37E2F4D6167FEA9D001FC74A /* LayoutBoxesTests.h */; };
+		37E2F4D9167FEA9D001FC74A /* LayoutBoxesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F4D8167FEA9D001FC74A /* LayoutBoxesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37E2F4CD167FEA9D001FC74A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E2F49C167FEA9C001FC74A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E2F4A4167FEA9D001FC74A;
+			remoteInfo = LayoutBoxes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37D4FD9D167FEF03006F7FFB /* HBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBoxView.h; path = LayoutBoxes/HBoxView.h; sourceTree = "<group>"; };
+		37D4FD9E167FEF03006F7FFB /* HBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBoxView.m; path = LayoutBoxes/HBoxView.m; sourceTree = "<group>"; };
+		37D4FDA5167FF53D006F7FFB /* 80-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80-60.png"; sourceTree = "<group>"; };
+		37D4FDA6167FF53D006F7FFB /* 80-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80-120.png"; sourceTree = "<group>"; };
+		37D4FDA7167FF53D006F7FFB /* 160-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "160-60.png"; sourceTree = "<group>"; };
+		37D4FDA8167FF53D006F7FFB /* 160-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "160-120.png"; sourceTree = "<group>"; };
+		37D9C33A16809D5500F22DF0 /* VBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VBoxView.h; path = LayoutBoxes/VBoxView.h; sourceTree = "<group>"; };
+		37D9C33B16809D5500F22DF0 /* VBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VBoxView.m; path = LayoutBoxes/VBoxView.m; sourceTree = "<group>"; };
+		37E2F4A5167FEA9D001FC74A /* LayoutBoxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutBoxes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E2F4A9167FEA9D001FC74A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37E2F4AB167FEA9D001FC74A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37E2F4AD167FEA9D001FC74A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37E2F4B1167FEA9D001FC74A /* LayoutBoxes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LayoutBoxes-Info.plist"; sourceTree = "<group>"; };
+		37E2F4B3167FEA9D001FC74A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37E2F4B5167FEA9D001FC74A /* LayoutBoxes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LayoutBoxes-Prefix.pch"; sourceTree = "<group>"; };
+		37E2F4B6167FEA9D001FC74A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37E2F4B8167FEA9D001FC74A /* LayoutBoxesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutBoxesAppDelegate.h; sourceTree = "<group>"; };
+		37E2F4B9167FEA9D001FC74A /* LayoutBoxesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutBoxesAppDelegate.m; sourceTree = "<group>"; };
+		37E2F4BC167FEA9D001FC74A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		37E2F4BE167FEA9D001FC74A /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		37E2F4BF167FEA9D001FC74A /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		37E2F4C2167FEA9D001FC74A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		37E2F4C9167FEA9D001FC74A /* LayoutBoxesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutBoxesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E2F4D1167FEA9D001FC74A /* LayoutBoxesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LayoutBoxesTests-Info.plist"; sourceTree = "<group>"; };
+		37E2F4D3167FEA9D001FC74A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37E2F4D5167FEA9D001FC74A /* LayoutBoxesTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LayoutBoxesTests-Prefix.pch"; sourceTree = "<group>"; };
+		37E2F4D6167FEA9D001FC74A /* LayoutBoxesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutBoxesTests.h; sourceTree = "<group>"; };
+		37E2F4D8167FEA9D001FC74A /* LayoutBoxesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutBoxesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E2F4A2167FEA9D001FC74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F4AA167FEA9D001FC74A /* UIKit.framework in Frameworks */,
+				37E2F4AC167FEA9D001FC74A /* Foundation.framework in Frameworks */,
+				37E2F4AE167FEA9D001FC74A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F4C5167FEA9D001FC74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F4CA167FEA9D001FC74A /* UIKit.framework in Frameworks */,
+				37E2F4CB167FEA9D001FC74A /* Foundation.framework in Frameworks */,
+				37E2F4CC167FEA9D001FC74A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37D4FDA4167FEFAF006F7FFB /* Boxes */ = {
+			isa = PBXGroup;
+			children = (
+				37D9C33A16809D5500F22DF0 /* VBoxView.h */,
+				37D9C33B16809D5500F22DF0 /* VBoxView.m */,
+				37D4FD9D167FEF03006F7FFB /* HBoxView.h */,
+				37D4FD9E167FEF03006F7FFB /* HBoxView.m */,
+			);
+			name = Boxes;
+			sourceTree = "<group>";
+		};
+		37E2F49A167FEA9C001FC74A = {
+			isa = PBXGroup;
+			children = (
+				37D4FDA5167FF53D006F7FFB /* 80-60.png */,
+				37D4FDA6167FF53D006F7FFB /* 80-120.png */,
+				37D4FDA7167FF53D006F7FFB /* 160-60.png */,
+				37D4FDA8167FF53D006F7FFB /* 160-120.png */,
+				37D4FDA4167FEFAF006F7FFB /* Boxes */,
+				37E2F4AF167FEA9D001FC74A /* LayoutBoxes */,
+				37E2F4CF167FEA9D001FC74A /* LayoutBoxesTests */,
+				37E2F4A8167FEA9D001FC74A /* Frameworks */,
+				37E2F4A6167FEA9D001FC74A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37E2F4A6167FEA9D001FC74A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F4A5167FEA9D001FC74A /* LayoutBoxes.app */,
+				37E2F4C9167FEA9D001FC74A /* LayoutBoxesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E2F4A8167FEA9D001FC74A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F4A9167FEA9D001FC74A /* UIKit.framework */,
+				37E2F4AB167FEA9D001FC74A /* Foundation.framework */,
+				37E2F4AD167FEA9D001FC74A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37E2F4AF167FEA9D001FC74A /* LayoutBoxes */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F4B8167FEA9D001FC74A /* LayoutBoxesAppDelegate.h */,
+				37E2F4B9167FEA9D001FC74A /* LayoutBoxesAppDelegate.m */,
+				37E2F4BB167FEA9D001FC74A /* MainWindow.xib */,
+				37E2F4BE167FEA9D001FC74A /* RootViewController.h */,
+				37E2F4BF167FEA9D001FC74A /* RootViewController.m */,
+				37E2F4C1167FEA9D001FC74A /* RootViewController.xib */,
+				37E2F4B0167FEA9D001FC74A /* Supporting Files */,
+			);
+			path = LayoutBoxes;
+			sourceTree = "<group>";
+		};
+		37E2F4B0167FEA9D001FC74A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F4B1167FEA9D001FC74A /* LayoutBoxes-Info.plist */,
+				37E2F4B2167FEA9D001FC74A /* InfoPlist.strings */,
+				37E2F4B5167FEA9D001FC74A /* LayoutBoxes-Prefix.pch */,
+				37E2F4B6167FEA9D001FC74A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37E2F4CF167FEA9D001FC74A /* LayoutBoxesTests */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F4D6167FEA9D001FC74A /* LayoutBoxesTests.h */,
+				37E2F4D8167FEA9D001FC74A /* LayoutBoxesTests.m */,
+				37E2F4D0167FEA9D001FC74A /* Supporting Files */,
+			);
+			path = LayoutBoxesTests;
+			sourceTree = "<group>";
+		};
+		37E2F4D0167FEA9D001FC74A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F4D1167FEA9D001FC74A /* LayoutBoxesTests-Info.plist */,
+				37E2F4D2167FEA9D001FC74A /* InfoPlist.strings */,
+				37E2F4D5167FEA9D001FC74A /* LayoutBoxesTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E2F4A4167FEA9D001FC74A /* LayoutBoxes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E2F4DC167FEA9D001FC74A /* Build configuration list for PBXNativeTarget "LayoutBoxes" */;
+			buildPhases = (
+				37E2F4A1167FEA9D001FC74A /* Sources */,
+				37E2F4A2167FEA9D001FC74A /* Frameworks */,
+				37E2F4A3167FEA9D001FC74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LayoutBoxes;
+			productName = LayoutBoxes;
+			productReference = 37E2F4A5167FEA9D001FC74A /* LayoutBoxes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37E2F4C8167FEA9D001FC74A /* LayoutBoxesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E2F4DF167FEA9D001FC74A /* Build configuration list for PBXNativeTarget "LayoutBoxesTests" */;
+			buildPhases = (
+				37E2F4C4167FEA9D001FC74A /* Sources */,
+				37E2F4C5167FEA9D001FC74A /* Frameworks */,
+				37E2F4C6167FEA9D001FC74A /* Resources */,
+				37E2F4C7167FEA9D001FC74A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E2F4CE167FEA9D001FC74A /* PBXTargetDependency */,
+			);
+			name = LayoutBoxesTests;
+			productName = LayoutBoxesTests;
+			productReference = 37E2F4C9167FEA9D001FC74A /* LayoutBoxesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E2F49C167FEA9C001FC74A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = CDM;
+			};
+			buildConfigurationList = 37E2F49F167FEA9C001FC74A /* Build configuration list for PBXProject "LayoutBoxes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37E2F49A167FEA9C001FC74A;
+			productRefGroup = 37E2F4A6167FEA9D001FC74A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E2F4A4167FEA9D001FC74A /* LayoutBoxes */,
+				37E2F4C8167FEA9D001FC74A /* LayoutBoxesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E2F4A3167FEA9D001FC74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F4B4167FEA9D001FC74A /* InfoPlist.strings in Resources */,
+				37E2F4BD167FEA9D001FC74A /* MainWindow.xib in Resources */,
+				37E2F4C3167FEA9D001FC74A /* RootViewController.xib in Resources */,
+				37D4FDA9167FF53D006F7FFB /* 80-60.png in Resources */,
+				37D4FDAA167FF53D006F7FFB /* 80-120.png in Resources */,
+				37D4FDAB167FF53D006F7FFB /* 160-60.png in Resources */,
+				37D4FDAC167FF53D006F7FFB /* 160-120.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F4C6167FEA9D001FC74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F4D4167FEA9D001FC74A /* InfoPlist.strings in Resources */,
+				37E2F4D7167FEA9D001FC74A /* LayoutBoxesTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37E2F4C7167FEA9D001FC74A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E2F4A1167FEA9D001FC74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F4B7167FEA9D001FC74A /* main.m in Sources */,
+				37E2F4BA167FEA9D001FC74A /* LayoutBoxesAppDelegate.m in Sources */,
+				37E2F4C0167FEA9D001FC74A /* RootViewController.m in Sources */,
+				37D4FD9F167FEF03006F7FFB /* HBoxView.m in Sources */,
+				37D9C33C16809D5500F22DF0 /* VBoxView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F4C4167FEA9D001FC74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F4D9167FEA9D001FC74A /* LayoutBoxesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37E2F4CE167FEA9D001FC74A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E2F4A4167FEA9D001FC74A /* LayoutBoxes */;
+			targetProxy = 37E2F4CD167FEA9D001FC74A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37E2F4B2167FEA9D001FC74A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E2F4B3167FEA9D001FC74A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37E2F4BB167FEA9D001FC74A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E2F4BC167FEA9D001FC74A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		37E2F4C1167FEA9D001FC74A /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E2F4C2167FEA9D001FC74A /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		37E2F4D2167FEA9D001FC74A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E2F4D3167FEA9D001FC74A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37E2F4DA167FEA9D001FC74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37E2F4DB167FEA9D001FC74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		37E2F4DD167FEA9D001FC74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LayoutBoxes/LayoutBoxes-Prefix.pch";
+				INFOPLIST_FILE = "LayoutBoxes/LayoutBoxes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37E2F4DE167FEA9D001FC74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LayoutBoxes/LayoutBoxes-Prefix.pch";
+				INFOPLIST_FILE = "LayoutBoxes/LayoutBoxes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37E2F4E0167FEA9D001FC74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LayoutBoxes.app/LayoutBoxes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LayoutBoxesTests/LayoutBoxesTests-Prefix.pch";
+				INFOPLIST_FILE = "LayoutBoxesTests/LayoutBoxesTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		37E2F4E1167FEA9D001FC74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LayoutBoxes.app/LayoutBoxes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LayoutBoxesTests/LayoutBoxesTests-Prefix.pch";
+				INFOPLIST_FILE = "LayoutBoxesTests/LayoutBoxesTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E2F49F167FEA9C001FC74A /* Build configuration list for PBXProject "LayoutBoxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2F4DA167FEA9D001FC74A /* Debug */,
+				37E2F4DB167FEA9D001FC74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E2F4DC167FEA9D001FC74A /* Build configuration list for PBXNativeTarget "LayoutBoxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2F4DD167FEA9D001FC74A /* Debug */,
+				37E2F4DE167FEA9D001FC74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E2F4DF167FEA9D001FC74A /* Build configuration list for PBXNativeTarget "LayoutBoxesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2F4E0167FEA9D001FC74A /* Debug */,
+				37E2F4E1167FEA9D001FC74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37E2F49C167FEA9C001FC74A /* Project object */;
+}
