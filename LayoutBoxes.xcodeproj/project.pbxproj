@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370B2F1B1680A17600DAF157 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 370B2F081680A17600DAF157 /* InfoPlist.strings */; };
+		370B2F1C1680A17600DAF157 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370B2F0A1680A17600DAF157 /* MainWindow.xib */; };
+		370B2F1D1680A17600DAF157 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370B2F0C1680A17600DAF157 /* RootViewController.xib */; };
+		370B2F1E1680A17600DAF157 /* HBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B2F0F1680A17600DAF157 /* HBoxView.m */; };
+		370B2F1F1680A17600DAF157 /* LayoutBoxes-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 370B2F111680A17600DAF157 /* LayoutBoxes-Info.plist */; };
+		370B2F201680A17600DAF157 /* LayoutBoxesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B2F141680A17600DAF157 /* LayoutBoxesAppDelegate.m */; };
+		370B2F211680A17600DAF157 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B2F151680A17600DAF157 /* main.m */; };
+		370B2F221680A17600DAF157 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 370B2F161680A17600DAF157 /* README.md */; };
+		370B2F231680A17600DAF157 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B2F181680A17600DAF157 /* RootViewController.m */; };
+		370B2F241680A17600DAF157 /* VBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 370B2F1A1680A17600DAF157 /* VBoxView.m */; };
 		37D4FD9F167FEF03006F7FFB /* HBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FD9E167FEF03006F7FFB /* HBoxView.m */; };
 		37D4FDA9167FF53D006F7FFB /* 80-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FDA5167FF53D006F7FFB /* 80-60.png */; };
 		37D4FDAA167FF53D006F7FFB /* 80-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FDA6167FF53D006F7FFB /* 80-120.png */; };
@@ -41,6 +51,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		370B2F091680A17600DAF157 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		370B2F0B1680A17600DAF157 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		370B2F0D1680A17600DAF157 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		370B2F0E1680A17600DAF157 /* HBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBoxView.h; sourceTree = "<group>"; };
+		370B2F0F1680A17600DAF157 /* HBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBoxView.m; sourceTree = "<group>"; };
+		370B2F111680A17600DAF157 /* LayoutBoxes-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LayoutBoxes-Info.plist"; sourceTree = "<group>"; };
+		370B2F121680A17600DAF157 /* LayoutBoxes-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LayoutBoxes-Prefix.pch"; sourceTree = "<group>"; };
+		370B2F131680A17600DAF157 /* LayoutBoxesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutBoxesAppDelegate.h; sourceTree = "<group>"; };
+		370B2F141680A17600DAF157 /* LayoutBoxesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutBoxesAppDelegate.m; sourceTree = "<group>"; };
+		370B2F151680A17600DAF157 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		370B2F161680A17600DAF157 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		370B2F171680A17600DAF157 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		370B2F181680A17600DAF157 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		370B2F191680A17600DAF157 /* VBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBoxView.h; sourceTree = "<group>"; };
+		370B2F1A1680A17600DAF157 /* VBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBoxView.m; sourceTree = "<group>"; };
 		37D4FD9D167FEF03006F7FFB /* HBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HBoxView.h; path = LayoutBoxes/HBoxView.h; sourceTree = "<group>"; };
 		37D4FD9E167FEF03006F7FFB /* HBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HBoxView.m; path = LayoutBoxes/HBoxView.m; sourceTree = "<group>"; };
 		37D4FDA5167FF53D006F7FFB /* 80-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80-60.png"; sourceTree = "<group>"; };
@@ -95,6 +120,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		370B2F071680A17600DAF157 /* LayoutBoxes */ = {
+			isa = PBXGroup;
+			children = (
+				370B2F081680A17600DAF157 /* InfoPlist.strings */,
+				370B2F0A1680A17600DAF157 /* MainWindow.xib */,
+				370B2F0C1680A17600DAF157 /* RootViewController.xib */,
+				370B2F0E1680A17600DAF157 /* HBoxView.h */,
+				370B2F0F1680A17600DAF157 /* HBoxView.m */,
+				370B2F101680A17600DAF157 /* LayoutBoxes */,
+				370B2F111680A17600DAF157 /* LayoutBoxes-Info.plist */,
+				370B2F121680A17600DAF157 /* LayoutBoxes-Prefix.pch */,
+				370B2F131680A17600DAF157 /* LayoutBoxesAppDelegate.h */,
+				370B2F141680A17600DAF157 /* LayoutBoxesAppDelegate.m */,
+				370B2F151680A17600DAF157 /* main.m */,
+				370B2F161680A17600DAF157 /* README.md */,
+				370B2F171680A17600DAF157 /* RootViewController.h */,
+				370B2F181680A17600DAF157 /* RootViewController.m */,
+				370B2F191680A17600DAF157 /* VBoxView.h */,
+				370B2F1A1680A17600DAF157 /* VBoxView.m */,
+			);
+			name = LayoutBoxes;
+			sourceTree = "<group>";
+		};
+		370B2F101680A17600DAF157 /* LayoutBoxes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LayoutBoxes;
+			sourceTree = "<group>";
+		};
 		37D4FDA4167FEFAF006F7FFB /* Boxes */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +216,7 @@
 				37E2F4B2167FEA9D001FC74A /* InfoPlist.strings */,
 				37E2F4B5167FEA9D001FC74A /* LayoutBoxes-Prefix.pch */,
 				37E2F4B6167FEA9D001FC74A /* main.m */,
+				370B2F071680A17600DAF157 /* LayoutBoxes */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -262,6 +318,11 @@
 				37D4FDAA167FF53D006F7FFB /* 80-120.png in Resources */,
 				37D4FDAB167FF53D006F7FFB /* 160-60.png in Resources */,
 				37D4FDAC167FF53D006F7FFB /* 160-120.png in Resources */,
+				370B2F1B1680A17600DAF157 /* InfoPlist.strings in Resources */,
+				370B2F1C1680A17600DAF157 /* MainWindow.xib in Resources */,
+				370B2F1D1680A17600DAF157 /* RootViewController.xib in Resources */,
+				370B2F1F1680A17600DAF157 /* LayoutBoxes-Info.plist in Resources */,
+				370B2F221680A17600DAF157 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +363,11 @@
 				37E2F4C0167FEA9D001FC74A /* RootViewController.m in Sources */,
 				37D4FD9F167FEF03006F7FFB /* HBoxView.m in Sources */,
 				37D9C33C16809D5500F22DF0 /* VBoxView.m in Sources */,
+				370B2F1E1680A17600DAF157 /* HBoxView.m in Sources */,
+				370B2F201680A17600DAF157 /* LayoutBoxesAppDelegate.m in Sources */,
+				370B2F211680A17600DAF157 /* main.m in Sources */,
+				370B2F231680A17600DAF157 /* RootViewController.m in Sources */,
+				370B2F241680A17600DAF157 /* VBoxView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +390,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		370B2F081680A17600DAF157 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370B2F091680A17600DAF157 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		370B2F0A1680A17600DAF157 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370B2F0B1680A17600DAF157 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		370B2F0C1680A17600DAF157 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370B2F0D1680A17600DAF157 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
 		37E2F4B2167FEA9D001FC74A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
