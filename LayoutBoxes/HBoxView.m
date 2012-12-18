@@ -3,7 +3,7 @@
 //  LayoutBoxes
 //
 //  Created by Daniel Monego on 12/17/12.
-//  Copyright 2012 CDM. All rights reserved.
+//  Copyright 2012. All rights reserved.
 //
 
 #import "HBoxView.h"
